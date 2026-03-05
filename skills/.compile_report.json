@@ -1,0 +1,367 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "parflow",
+  "evidence": {
+    "core_skills": [
+      "parflow-build-and-install",
+      "parflow-getting-started",
+      "parflow-inputs-and-modeling",
+      "parflow-examples-and-tutorials",
+      "parflow-api-and-scripting",
+      "parflow-user-manual"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/parflow-build-and-install.md",
+      "skills/.evidence/parflow-getting-started.md",
+      "skills/.evidence/parflow-inputs-and-modeling.md",
+      "skills/.evidence/parflow-examples-and-tutorials.md",
+      "skills/.evidence/parflow-api-and-scripting.md",
+      "skills/.evidence/parflow-user-manual.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/parflow-advanced-topics/SKILL.md",
+        "skills/parflow-advanced-topics/references/doc_map.md",
+        "skills/parflow-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/parflow-advanced-topics/SKILL.md",
+        "skills/parflow-advanced-topics/references/doc_map.md",
+        "skills/parflow-advanced-topics/references/source_map.md",
+        "skills/parflow-api-and-scripting/SKILL.md",
+        "skills/parflow-build-and-install/SKILL.md",
+        "skills/parflow-developer-guide/SKILL.md",
+        "skills/parflow-developer-guide/references/doc_map.md",
+        "skills/parflow-developer-guide/references/source_map.md",
+        "skills/parflow-examples-and-tutorials/SKILL.md",
+        "skills/parflow-getting-started/SKILL.md",
+        "skills/parflow-index/SKILL.md",
+        "skills/parflow-inputs-and-modeling/SKILL.md",
+        "skills/parflow-manuals/SKILL.md",
+        "skills/parflow-manuals/references/doc_map.md",
+        "skills/parflow-manuals/references/source_map.md",
+        "skills/parflow-simulation-workflows/SKILL.md",
+        "skills/parflow-user-manual/SKILL.md"
+      ],
+      "deleted": [
+        "skills/parflow-developer-guide/SKILL.md",
+        "skills/parflow-developer-guide/references/doc_map.md",
+        "skills/parflow-developer-guide/references/source_map.md",
+        "skills/parflow-manuals/SKILL.md",
+        "skills/parflow-manuals/references/doc_map.md",
+        "skills/parflow-manuals/references/source_map.md"
+      ],
+      "modified": [
+        "skills/parflow-api-and-scripting/SKILL.md",
+        "skills/parflow-build-and-install/SKILL.md",
+        "skills/parflow-examples-and-tutorials/SKILL.md",
+        "skills/parflow-getting-started/SKILL.md",
+        "skills/parflow-index/SKILL.md",
+        "skills/parflow-inputs-and-modeling/SKILL.md",
+        "skills/parflow-simulation-workflows/SKILL.md",
+        "skills/parflow-user-manual/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/parflow-advanced-topics/references/doc_map.md",
+        "skills/parflow-advanced-topics/references/source_map.md",
+        "skills/parflow-analysis-and-output/SKILL.md",
+        "skills/parflow-analysis-and-output/references/doc_map.md",
+        "skills/parflow-analysis-and-output/references/source_map.md",
+        "skills/parflow-api-and-scripting/SKILL.md",
+        "skills/parflow-api-and-scripting/references/doc_map.md",
+        "skills/parflow-api-and-scripting/references/source_map.md",
+        "skills/parflow-build-and-install/SKILL.md",
+        "skills/parflow-build-and-install/references/doc_map.md",
+        "skills/parflow-build-and-install/references/source_map.md",
+        "skills/parflow-examples-and-tutorials/references/doc_map.md",
+        "skills/parflow-examples-and-tutorials/references/source_map.md",
+        "skills/parflow-getting-started/SKILL.md",
+        "skills/parflow-getting-started/references/doc_map.md",
+        "skills/parflow-getting-started/references/source_map.md",
+        "skills/parflow-inputs-and-modeling/references/doc_map.md",
+        "skills/parflow-inputs-and-modeling/references/source_map.md",
+        "skills/parflow-simulation-workflows/references/doc_map.md",
+        "skills/parflow-simulation-workflows/references/source_map.md",
+        "skills/parflow-test/SKILL.md",
+        "skills/parflow-test/references/doc_map.md",
+        "skills/parflow-test/references/source_map.md",
+        "skills/parflow-user-manual/SKILL.md",
+        "skills/parflow-user-manual/references/doc_map.md",
+        "skills/parflow-user-manual/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/parflow-advanced-topics/references/doc_map.md",
+        "skills/parflow-advanced-topics/references/source_map.md",
+        "skills/parflow-analysis-and-output/SKILL.md",
+        "skills/parflow-analysis-and-output/references/doc_map.md",
+        "skills/parflow-analysis-and-output/references/source_map.md",
+        "skills/parflow-api-and-scripting/SKILL.md",
+        "skills/parflow-api-and-scripting/references/doc_map.md",
+        "skills/parflow-api-and-scripting/references/source_map.md",
+        "skills/parflow-build-and-install/SKILL.md",
+        "skills/parflow-build-and-install/references/doc_map.md",
+        "skills/parflow-build-and-install/references/source_map.md",
+        "skills/parflow-examples-and-tutorials/references/doc_map.md",
+        "skills/parflow-examples-and-tutorials/references/source_map.md",
+        "skills/parflow-getting-started/SKILL.md",
+        "skills/parflow-getting-started/references/doc_map.md",
+        "skills/parflow-getting-started/references/source_map.md",
+        "skills/parflow-inputs-and-modeling/references/doc_map.md",
+        "skills/parflow-inputs-and-modeling/references/source_map.md",
+        "skills/parflow-simulation-workflows/references/doc_map.md",
+        "skills/parflow-simulation-workflows/references/source_map.md",
+        "skills/parflow-test/SKILL.md",
+        "skills/parflow-test/references/doc_map.md",
+        "skills/parflow-test/references/source_map.md",
+        "skills/parflow-user-manual/SKILL.md",
+        "skills/parflow-user-manual/references/doc_map.md",
+        "skills/parflow-user-manual/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Root-level README*.md and RELEASE-NOTES.md contain additional documentation context outside docs/.",
+      "Generator auto-discovery finds docs/examples/test by default, but explicit source_dirs are required for ParFlow's pfsimulator/pftools/pfnuopc layout.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to fix f-string syntax so dry-run/generation executes deterministically."
+    ],
+    "package_name": "parflow",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "pfsimulator",
+      "pftools",
+      "pfnuopc",
+      "pf-keys"
+    ],
+    "test_dirs": [
+      "test",
+      "performance_tests",
+      "pftools/test",
+      "pfsimulator/amps/test"
+    ],
+    "tutorial_dirs": [
+      "examples",
+      "docs/user_manual/python/tutorials"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow",
+  "run_id": "compile_20260305T031114575967Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "parflow-analysis-and-output",
+      "parflow-api-and-scripting",
+      "parflow-build-and-install",
+      "parflow-developer-guide",
+      "parflow-examples-and-tutorials",
+      "parflow-getting-started",
+      "parflow-index",
+      "parflow-inputs-and-modeling",
+      "parflow-manuals",
+      "parflow-simulation-workflows",
+      "parflow-test",
+      "parflow-user-manual"
+    ],
+    "core_skill_ids": [
+      "parflow-build-and-install",
+      "parflow-getting-started",
+      "parflow-inputs-and-modeling",
+      "parflow-examples-and-tutorials",
+      "parflow-api-and-scripting",
+      "parflow-user-manual"
+    ],
+    "deferred_gaps": [
+      "Confirm whether performance_tests should stay as a standalone test root or be folded into the main test skill after generation.",
+      "Decide if root-level markdown docs should be represented via a dedicated advanced topic reference in pass 3.",
+      "Re-check whether a distinct Parallel/HPC topic emerges after enrichment or should be merged into build-and-install/simulation-workflows."
+    ],
+    "goal": "Generate deterministic docs-first ParFlow skills, enrich core workflows in pass 2, then audit/merge noisy topics in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "docs-first routing across generated topic skills",
+          "explicit escalation path from docs to source_map lookup",
+          "coverage map of docs/tutorial/tests/source roots"
+        ],
+        "reason": "Index routing quality determines whether later answers hit the right topic skill first.",
+        "skill_id": "parflow-index",
+        "source_hints": [
+          "docs",
+          "examples",
+          "test",
+          "pfsimulator",
+          "pftools",
+          "pfnuopc",
+          "pf-keys"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "CMake/build prerequisites and variants",
+          "MPI/OpenMP/GPU build toggles and dependencies",
+          "minimal verify-after-build workflow"
+        ],
+        "reason": "Build/install failures are common first-week blockers and must have a high-signal path.",
+        "skill_id": "parflow-build-and-install",
+        "source_hints": [
+          "README.md",
+          "README-GPU.md",
+          "README-OPENMP.md",
+          "README-SAMRAI.md",
+          "CMakeLists.txt",
+          "cmake"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "key input structures and parameterization workflow",
+          "geometry/material/boundary configuration guidance",
+          "pitfalls from docs and validation checks"
+        ],
+        "reason": "Input key semantics and modeling choices dominate correctness and user error rates.",
+        "skill_id": "parflow-inputs-and-modeling",
+        "source_hints": [
+          "docs/user_manual",
+          "pf-keys/definitions",
+          "examples",
+          "test/input"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "prepare-run-checkpoint-restart sequence",
+          "expected outputs and basic regression checks",
+          "linking tutorial runs to test baselines"
+        ],
+        "reason": "Run/restart/output workflow questions are frequent and need concise end-to-end playbooks.",
+        "skill_id": "parflow-simulation-workflows",
+        "source_hints": [
+          "docs/user_manual",
+          "examples",
+          "test/tcl",
+          "test/python",
+          "pfsimulator/parflow_exe",
+          "pfsimulator/parflow_lib"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "Python package and CLI task flows",
+          "TCL/Python test patterns for minimal reproducible scripts",
+          "where to inspect bindings when docs are insufficient"
+        ],
+        "reason": "Python/TCL entry points are key for automation and support most user scripting workflows.",
+        "skill_id": "parflow-api-and-scripting",
+        "source_hints": [
+          "docs/user_manual/python",
+          "pftools/python/parflow",
+          "test/python",
+          "test/tcl"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "merge one-doc and low-signal topic skills",
+          "preserve doc_map/source_map references after consolidation",
+          "update index routing to merged advanced topic"
+        ],
+        "reason": "Dry-run indicates multiple low-doc topics that should be consolidated to reduce routing noise.",
+        "skill_id": "parflow-user-manual",
+        "source_hints": [
+          "skills/parflow-*/references/doc_map.md",
+          "skills/parflow-*/references/source_map.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "parflow-examples-and-tutorials",
+      "parflow-inputs-and-modeling",
+      "parflow-user-manual",
+      "parflow-test",
+      "parflow-simulation-workflows",
+      "parflow-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-user-manual/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-test/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-simulation-workflows/SKILL.md: missing `## High-Signal Playbook` section.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/parflow-parflow/skills/parflow-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "parflow-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "parflow-index",
+      "parflow-build-and-install",
+      "parflow-inputs-and-modeling",
+      "parflow-simulation-workflows",
+      "parflow-api-and-scripting",
+      "parflow-user-manual"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 93,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
